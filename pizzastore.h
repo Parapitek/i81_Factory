@@ -1,3 +1,4 @@
+#pragma once
 #ifndef PIZZASTORE_H
 #define PIZZASTORE_H
 

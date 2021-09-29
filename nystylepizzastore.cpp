@@ -2,11 +2,10 @@
 
 NYStylePizzaStore::NYStylePizzaStore()
 {
-
 }
 
 Pizza* NYStylePizzaStore::createPizza(char* type) {
-    Pizza *pizza;
+    Pizza* pizza;
     if (strcmp(type, "cheese") == 0) {
         pizza = new NYStyleCheezePizza();
     }

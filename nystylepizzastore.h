@@ -1,3 +1,4 @@
+#pragma once
 #ifndef NYSTYLEPIZZASTORE_H
 #define NYSTYLEPIZZASTORE_H
 

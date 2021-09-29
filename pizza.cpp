@@ -2,9 +2,9 @@
 
 Pizza::Pizza()
 {
-    name = new char [200];
-    dough = new char [200];
-    sauce = new char [200];
+    name = new char[200];
+    dough = new char[200];
+    sauce = new char[200];
 }
 
 Pizza::~Pizza()
@@ -19,10 +19,10 @@ void Pizza::prepare() {
     cout << "Tossing dough..." << endl;
     cout << "Adding sauce..." << endl;
     cout << "Adding toppings: " << endl;
-    
+
     for (list<char*>::iterator it = toppings.begin(); it != toppings.end(); ++it) {
-		cout << "\t" << *it << endl;
-	}
+        cout << "\t" << *it << endl;
+    }
 }
 
 void Pizza::bake() {
